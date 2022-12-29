@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "455481379483",
+    "project_id": "designroom-87eed",
+    "storage_bucket": "designroom-87eed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455481379483:android:0302f37baf49871944543e",
+        "android_client_info": {
+          "package_name": "com.example.designroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455481379483-48ivqmsjaa6mu3ninnbjthhv21if7gh7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZlk46jG8Le8jrZ5FhmBkDa7QbOm-I8Hc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455481379483-48ivqmsjaa6mu3ninnbjthhv21if7gh7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

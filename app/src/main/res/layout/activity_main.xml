@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:layout_width="116dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/diagnol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/window"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/roomGallery"
+        android:layout_width="170dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="452dp"
+        android:text="@string/roomGallery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="268dp"
+        android:layout_marginTop="188dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/designer"
+        android:layout_width="207dp"
+        android:layout_height="57dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="304dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/designer"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/designRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="384dp"
+        android:text="@string/designRoom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/diagnol1"
+        android:layout_width="116dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/diagnol1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/window2"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="192dp"
+        android:background="@drawable/box"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:layout_width="20dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="188dp"
+        android:background="#E91E63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Room Designer</string>
+    <string name="designRoom">Design Room</string>
+    <string name="roomGallery">Room Gallery</string>
+    <string name="designer">Designer</string>
+    <string name="roomGalleryTitle">Room Gallery</string>
+</resources>
